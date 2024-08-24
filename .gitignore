@@ -1,0 +1,64 @@
+# Go build artifacts
+/bin/
+/pkg/
+/vendor/
+/*.exe
+/*.exe~
+/*.dll
+/*.so
+/*.dylib
+/*.test
+/*.out
+
+# Go modules
+go.sum
+
+# Go test artifacts
+*.coverprofile
+
+# Go environment files
+.env
+.env.local
+.env.test
+.env.production
+
+# Node.js/React dependencies
+/node_modules/
+/build/
+/dist/
+/*.log
+.npm/
+/yarn-error.log
+.pnp.js
+.pnp.cjs
+
+# Parcel-bundler cache (for React projects that use Parcel)
+/.cache
+
+# dotenv environment variables file
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+go.sum
+* .log
+
+# Editor directories and files
+.vscode/
+.idea/
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+
+# React specific
+/build/
+/coverage/
+
+# Other
+/.eslintcache
